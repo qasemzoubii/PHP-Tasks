@@ -73,7 +73,8 @@ echo "<br> <br> -----------------------<br> <br>";
 
 
 $fruits = array("d" => "lemon", "a" => "orange", "b" => "banana", "c" => "apple");
-ksort($fruits);
+// ksort($fruits);
+asort($fruits);
 
 foreach ($fruits as $key => $value){
 echo "$key = $value<br>";

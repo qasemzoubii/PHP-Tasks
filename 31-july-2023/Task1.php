@@ -120,9 +120,9 @@ echo "<br> <br> -----------------------<br> <br>";
 $unitBill = 300;
 if($unitBill <= 50){
 echo $unitBill*2.5;
-}else if ($unitBill >50 && $unitBill <=150){
+}else if ($unitBill<=150){
 echo ($unitBill-50)*5 + (50*2.5); 
-}else if ($unitBill > 150 && $unitBill <=250){
+}else if ( $unitBill <=250){
 echo (50*2.5)+($unitBill-150)*6.2 + 100*5;
 }else{
 echo $unitBill*7.5;
